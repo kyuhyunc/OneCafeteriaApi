@@ -1,0 +1,213 @@
+[
+	{
+		"id": "building83-coop",
+		"name": "COOP",
+		"location": "Building 83",
+		"rating": 3.7,
+		"reviews": [
+			{
+				"foodName": "Char-Grilled Chicken Club Sandwich",
+				"rating": 4,
+				"picture": "temp"
+			},
+			{
+				"foodName": "Buffalo Chicken Wrap",
+				"rating": 4,
+				"picture": "temp"
+			}
+		],
+		"menus": [
+			{
+				"day": "Monday",
+				"foods": [
+					{
+						"name": "Char-Grilled Chicken Club Sandwich",
+						"description": "bacon, lettuce, tomato, pickles, provolone, kobe bun",
+						"price": [ "$4.95" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Buffalo Chicken Wrap",
+						"description": "buffalo sauce, blue cheese, carrots, celery, chipotle tortilla",
+						"price": [ "$4.25" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Tuesday",
+				"foods": [
+					{
+						"name": "Deluxe Chicken Sandwich",
+						"description": "lettuce, tomato, pickles, cheese, kobe bun",
+						"price": [ "$3.95" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Spicy Chicken Sandwich",
+						"description": "pickles, kobe bun",
+						"price": [ "$3.75" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Wednesday",
+				"foods": [
+					{
+						"name": "Deluxe Spicy Chicken Sandwich",
+						"description": "lettuce, tomato, pickles, cheese, kobe bun",
+						"price": [ "$3.95" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Spicy Buttermilk Breast and Wing",
+						"description": "bone-in with house seasoning",
+						"price": [ "$3.25" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Thursday",
+				"foods": [
+					{
+						"name": "Deluxe Chicken Sandwich",
+						"description": "lettuce, tomato, pickles, cheese, kobe bun",
+						"price": [ "$3.95" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Spicy Chicken Sandwich",
+						"description": "pickles, kobe bun",
+						"price": [ "$3.75" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Friday",
+				"foods": [
+					{
+						"name": "Char-Grilled Chicken Club Sandwich",
+						"description": "bacon, lettuce, tomato, pickles, provolone, kobe bun",
+						"price": [ "$4.95" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Buffalo Chicken Wrap",
+						"description": "buffalo sauce, blue cheese, carrots, celery, chipotle tortilla",
+						"price": [ "$4.25" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "building83-nwdock",
+		"name": "NW Dock",
+		"location": "Building 83",
+		"rating": 4.1,
+		"reviews": [
+			{
+				"foodName": "Cod & Chips",
+				"rating": 4,
+				"picture": "temp"
+			},
+			{
+				"foodName": "Fish Special",
+				"rating": 3,
+				"picture": "temp"
+			}
+		],
+		"menus": [
+			{
+				"day": "Monday",
+				"foods": [
+					{
+						"name": "Seafood Louie w/ choice Crab, Salmon, Shrimp",
+						"description": "cage-free egg, tomato, house made louie dressing",
+						"price": [ "m/p" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Seasonal Grilled Fish",
+						"description": "served with two side of your choice",
+						"price": [ "m/p" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Wednesday",
+				"foods": [
+					{
+						"name": "Salmon & Chips",
+						"description": "cornflake-crusted, smoky tomato ketchup, spicy pepper tartar",
+						"price": [ "$10" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Seafood Ceasar w/ choice Crab, Salmon, Shrimp",
+						"description": "romaine, crouton, parmesan, white anchovy",
+						"price": [ "m/p" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Thursday",
+				"foods": [
+					{
+						"name": "Rockfish Tacos",
+						"description": "cilantro lime crema, kale & cabbage slaw",
+						"price": [ "$8" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Penn Cove Mussels",
+						"description": "seasonal preperation",
+						"price": [ "$9" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			},
+			{
+				"day": "Friday",
+				"foods": [
+					{
+						"name": "Fish Special",
+						"description": "Creation from the Chefs",
+						"price": [ "$11" ],
+						"isVegan": false,
+						"isVegetarian": false
+					},
+					{
+						"name": "Cod & Chips",
+						"description": "beer batter, smoky tomato ketchup, spicy pepper tartar",
+						"price": [ "$8" ],
+						"isVegan": false,
+						"isVegetarian": false
+					}
+				]
+			}
+		]
+	}
+]
