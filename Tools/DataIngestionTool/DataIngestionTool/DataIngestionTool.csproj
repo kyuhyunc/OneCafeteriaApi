@@ -6,10 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\..\OneCafeteriaApi.Provider\Models\Food.cs" Link="Models\Food.cs" />
-    <Compile Include="..\..\..\OneCafeteriaApi.Provider\Models\Menu.cs" Link="Models\Menu.cs" />
+    <Compile Include="..\..\..\OneCafeteriaApi.Models\Food.cs" Link="Models\Food.cs" />
+    <Compile Include="..\..\..\OneCafeteriaApi.Models\Menu.cs" Link="Models\Menu.cs" />
+    <Compile Include="..\..\..\OneCafeteriaApi.Models\Review.cs" Link="Models\Review.cs" />
     <Compile Include="..\..\..\OneCafeteriaApi.Provider\Models\Restaurant.cs" Link="Models\Restaurant.cs" />
-    <Compile Include="..\..\..\OneCafeteriaApi.Provider\Models\Review.cs" Link="Models\Review.cs" />
   </ItemGroup>
 
   <ItemGroup>

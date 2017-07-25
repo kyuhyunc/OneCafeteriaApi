@@ -33,7 +33,7 @@
             {
                 try
                 {
-                    await client.CreateDocumentAsync(UriFactory.CreateDocumentCollectionUri(databaseName, collectionName), restaurant);
+                    await client.UpsertDocumentAsync(UriFactory.CreateDocumentCollectionUri(databaseName, collectionName), restaurant);
                     Console.WriteLine("Succesfully created a restaurant {0}", restaurant.Id);
                 }
                 catch (Exception ex)
