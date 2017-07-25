@@ -5,10 +5,18 @@
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
+    using OneCafeteriaApi.Provider.Restaurant;
 
     [Route("api/restaurant")]
     public class RestaurantController : Controller
     {
+        private readonly IRestaurantProvider restaurantProvider;
+
+        public RestaurantController(IRestaurantProvider restaurantProvider)
+        {
+            this.restaurantProvider = restaurantProvider;
+        }
+
         [HttpGet]
         public IEnumerable<string> Get()
         {

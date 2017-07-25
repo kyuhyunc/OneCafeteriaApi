@@ -5,15 +5,23 @@
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
+    using OneCafeteriaApi.Provider.Review;
 
     [Route("api/review")]
     public class ReviewController : Controller
     {
+        private readonly IReviewProvider reviewProvider;
+
+        public ReviewController(IReviewProvider reviewProvider)
+        {
+            this.reviewProvider = reviewProvider;
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "review controller1", "review controller1" };
+            return reviewProvider.Get();
         }
 
         // GET api/values/5

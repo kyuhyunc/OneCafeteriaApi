@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OneCafeteriaApi.Provider.Restaurant
 {
-    public class RestaurantProvider : IRestaurantProvider
+    public interface IRestaurantProvider
     {
     }
 }

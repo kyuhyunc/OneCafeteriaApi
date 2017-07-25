@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OneCafeteriaApi.Provider.ChatBot
 {
-    public class ChatBotProvider : IChatBotProvider
+    public interface IChatBotProvider
     {
     }
 }

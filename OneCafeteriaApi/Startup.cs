@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using OneCafeteriaApi.Provider.ChatBot;
+using OneCafeteriaApi.Provider.Restaurant;
+using OneCafeteriaApi.Provider.Review;
 
 namespace OneCafeteriaApi
 {
@@ -29,6 +32,11 @@ namespace OneCafeteriaApi
         {
             // Add framework services.
             services.AddMvc();
+
+            // Inject providers
+            services.AddTransient<IChatBotProvider, ChatBotProvider>();
+            services.AddTransient<IRestaurantProvider, RestaurantProvider>();
+            services.AddTransient<IReviewProvider, ReviewProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5,10 +5,18 @@
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
+    using OneCafeteriaApi.Provider.ChatBot;
 
     [Route("api/chatbot")]
     public class ChatBotController : Controller
     {
+        private readonly IChatBotProvider chatBotProvider;
+
+        public ChatBotController(IChatBotProvider chatBotProvider)
+        {
+            this.chatBotProvider = chatBotProvider;
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
