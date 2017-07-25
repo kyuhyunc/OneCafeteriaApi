@@ -6,8 +6,8 @@
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
     using OneCafeteriaApi.Provider.Restaurant;
+    using OneCafeteriaApi.Models.ResponseModels;
 
-    [Route("api/restaurant")]
     public class RestaurantController : Controller
     {
         private readonly IRestaurantProvider restaurantProvider;
@@ -18,34 +18,17 @@
         }
 
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("api/restaurant/getallrestaurants")]
+        public IEnumerable<Restaurant> GetAllRestaurants()
         {
-            return new string[] { "restaurant controller1", "restaurant controller1" };
+            return this.restaurantProvider.GetAllRestaurants();
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("api/restaurant/getrestaurantdetail/{id}")]
+        public RestaurantDetail GetRestaurantDetail(string id)
         {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return this.restaurantProvider.GetRestaurantDetail(id);
         }
     }
 }

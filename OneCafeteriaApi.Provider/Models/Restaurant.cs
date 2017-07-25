@@ -20,9 +20,9 @@ namespace OneCafeteriaApi.Provider.Models
         public double Rating { get; set; }
 
         [JsonProperty(PropertyName = "reviews")]
-        public List<Review> Reviews { get; set; }
+        public List<OneCafeteriaApi.Models.Review> Reviews { get; set; }
 
         [JsonProperty(PropertyName = "menus")]
-        public List<Menu> Menus { get; set; }
+        public List<OneCafeteriaApi.Models.Menu> Menus { get; set; }
     }
 }

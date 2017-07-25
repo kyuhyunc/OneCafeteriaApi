@@ -7,6 +7,6 @@ namespace OneCafeteriaApi.Provider.Restaurant
     {
         IEnumerable<OneCafeteriaApi.Models.ResponseModels.Restaurant> GetAllRestaurants();
 
-        IEnumerable<OneCafeteriaApi.Models.ResponseModels.RestaurantDetail> GetRestaurantDetail();
+        OneCafeteriaApi.Models.ResponseModels.RestaurantDetail GetRestaurantDetail(string id);
     }
 }
