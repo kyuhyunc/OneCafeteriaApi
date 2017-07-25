@@ -13,7 +13,7 @@
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "chatbot controller1", "chatbot controller2" };
         }
 
         // GET api/values/5
