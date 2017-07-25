@@ -1,5 +1,5 @@
 ﻿
-namespace OneCafeteriaApi.Models
+namespace OneCafeteriaApi.Provider.Models
 {
     using Newtonsoft.Json;
     using System.Collections;
@@ -14,7 +14,7 @@ namespace OneCafeteriaApi.Models
         public string Name { get; set; }
 
         [JsonProperty(PropertyName = "location")]
-        public string Locaiton { get; set; }
+        public string Location { get; set; }
 
         [JsonProperty(PropertyName = "rating")]
         public double Rating { get; set; }

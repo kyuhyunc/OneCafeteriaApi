@@ -1,14 +1,12 @@
 ﻿namespace DataIngestionTool
 {
     using Newtonsoft.Json;
-    using OneCafeteriaApi.Models;
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using System.Net;
-    using Microsoft.Azure.Documents;
     using Microsoft.Azure.Documents.Client;
     using System.Threading.Tasks;
+    using OneCafeteriaApi.Provider.Models;
 
     public class Program
     {
@@ -40,7 +38,7 @@
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Failed to create a restaurant {0}", restaurant.Id);
+                    Console.WriteLine(String.Format("Failed to create a restaurant {0}: {1}", restaurant.Id, ex));
                 }
             }
         }
