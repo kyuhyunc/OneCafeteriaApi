@@ -9,7 +9,6 @@
     [Route("api/restaurant")]
     public class RestaurantController : Controller
     {
-        // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {

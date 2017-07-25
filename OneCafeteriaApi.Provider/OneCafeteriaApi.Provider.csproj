@@ -4,10 +4,4 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="ChatBot\" />
-    <Folder Include="Review\" />
-    <Folder Include="Restaurant\" />
-  </ItemGroup>
-
 </Project>

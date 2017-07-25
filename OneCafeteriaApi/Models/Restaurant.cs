@@ -16,6 +16,6 @@ namespace OneCafeteriaApi.Models
 
         public IEnumerator<Review> Reviews { get; set; }
 
-        public IEnumerator<Food> Foods { get; set; }
+        public IEnumerator<Menu> Menus { get; set; }
     }
 }
