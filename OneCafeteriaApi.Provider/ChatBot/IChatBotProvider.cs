@@ -6,5 +6,6 @@ namespace OneCafeteriaApi.Provider.ChatBot
 {
     public interface IChatBotProvider
     {
+        IEnumerable<OneCafeteriaApi.Models.ResponseModels.Restaurant> GetSuggestions(string query);
     }
 }
